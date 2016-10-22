@@ -22,11 +22,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cRn-R8-UL0">
-                                <frame key="frameInset" minX="171" minY="318" width="32" height="30"/>
+                                <frame key="frameInset" minX="170" minY="318" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="start"/>
+                                <state key="normal" title="send"/>
                                 <connections>
-                                    <action selector="onClickStartBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZFr-sp-jXZ"/>
+                                    <action selector="onClickSendBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6C8-Ms-GlT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TPu-DI-RYk">
+                                <frame key="frameInset" minX="162" minY="450" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="receive"/>
+                                <connections>
+                                    <action selector="onClickReceiveBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aaL-lD-aUa"/>
                                 </connections>
                             </button>
                         </subviews>
